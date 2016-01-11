@@ -48,7 +48,7 @@ plot4Draw <- function () {
 
 # Save plot 4 to a file
 plot4Save <- function () {
-  png(file = "plot4.png") 
+  png(file = "plot4.png", width = 480, height = 480)  
   plot4Draw()
   dev.off() 
 }

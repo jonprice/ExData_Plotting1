@@ -1,3 +1,65 @@
+## Solution
+
+
+To create the plots set this src directory as the working directory
+
+```r
+setwd("~/src/coursera/exploratorydataanalysis/ExData_Plotting1")
+```
+
+source the files
+
+```r
+source('plot1.R')
+source('plot2.R')
+source('plot3.R')
+source('plot4.R')
+```
+
+To output the plots to the screen the following functions can be used. 
+
+```r
+plot1Draw()
+plot2Draw()
+plot3Draw()
+plot4Draw()
+```
+
+To output plots to the filesystem as png the following functions can be used. 
+
+```r
+plot1Save()
+plot2Save()
+plot3Save()
+plot4Save()
+```
+
+
+Plots as produced by R code. 
+
+### Plot 1
+
+
+![plot of chunk unnamed-chunk-2](plot1.png) 
+
+
+### Plot 2
+
+![plot of chunk unnamed-chunk-3](plot2.png) 
+
+
+### Plot 3
+
+![plot of chunk unnamed-chunk-4](plot3.png) 
+
+
+### Plot 4
+
+![plot of chunk unnamed-chunk-5](plot4.png) 
+
+
+
+
 ## Introduction
 
 This assignment uses data from

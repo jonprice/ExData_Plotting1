@@ -41,7 +41,7 @@ plot3Draw <- function () {
 
 # Save plot 3 to a file
 plot3Save <- function () {
-  png(file = "plot3.png") 
+  png(file = "plot3.png", width = 480, height = 480)  
   plot3Draw()
   dev.off() 
 }

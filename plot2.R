@@ -37,7 +37,7 @@ plot2Draw <- function () {
 
 # Save plot 2 to a file
 plot2Save <- function () {
-  png(file = "plot2.png") 
+  png(file = "plot2.png", width = 480, height = 480)  
   plot2Draw()
   dev.off() 
 }
